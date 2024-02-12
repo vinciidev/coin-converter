@@ -1,0 +1,26 @@
+body{
+    background-color: #FCFCF7;
+}
+
+#tittle{
+    display: flex;
+    justify-content: center;
+}
+
+#mainBox{
+    background-color: #F2F2E9;
+    margin-top: 3rem;
+    width: 75%;
+    height: 30rem;
+    border-radius: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mainBox input{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
