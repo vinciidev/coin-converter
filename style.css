@@ -24,3 +24,13 @@ body{
     justify-content: center;
     flex-direction: row;
 }
+
+#inputValueOne{
+    display: flex;
+    justify-content: center;
+}
+
+#inputValueTwo{
+    display: flex;
+    justify-content: center;
+}
