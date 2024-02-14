@@ -19,11 +19,11 @@
         <div id="valueOne">
         <select type="number" id="coinSelectOne">
             <option type="selected">Selecione</option>
-            <option value="usd">Dollar: $(USD)</option>
-            <option value="brl">Real: R$(BRL)</option>
-            <option value="gbp">Libra Esterlina: £(GBP)</option>
-            <option value="jpy">Iene: ¥(JPY)</option>
-            <option value="btc">Bitcoin: ฿(BTC)</option>
+            <option value="USD">Dollar: $(USD)</option>
+            <option value="BRL">Real: R$(BRL)</option>
+            <option value="GBP">Libra Esterlina: £(GBP)</option>
+            <option value="JPY">Iene: ¥(JPY)</option>
+            <option value="BTC">Bitcoin: ฿(BTC)</option>
         </select>
         <input type="number" id="firstCoin">
         </div>
@@ -33,14 +33,18 @@
         <div id="valueTwo">
         <select type="number" id="coinSelectTwo">
             <option type="selected">Selecione</option>
-            <option value="usd">Dollar: $(USD)</option>
-            <option value="brl">Real: R$(BRL)</option>
-            <option value="gbp">Libra Esterlina: £(GBP)</option>
-            <option value="jpy">Iene: ¥(JPY)</option>
-            <option value="btc">Bitcoin: ฿(BTC)</option>
+            <option value="USD">Dollar: $(USD)</option>
+            <option value="BRL">Real: R$(BRL)</option>
+            <option value="GBP">Libra Esterlina: £(GBP)</option>
+            <option value="JPY">Iene: ¥(JPY)</option>
+            <option value="BTC">Bitcoin: ฿(BTC)</option>
         </select>
-            <input type="number" id="secondCoin">
+            <input type="number" id="secondCoin" disabled>
+
+            <button id="converterButton" onclick="convertValue()">Converter</button>
+
         </div>
+
 
     
 

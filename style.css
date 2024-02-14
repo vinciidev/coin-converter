@@ -79,3 +79,16 @@ body{
     left: 51%;
     transform: translate(-50%, -50%);
 }
+
+#converterButton{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 7rem;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
